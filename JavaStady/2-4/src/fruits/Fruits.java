@@ -6,4 +6,5 @@ public class Fruits  {
         System.out.println("食べ物は" + fruits);
         System.out.println(count + "個です");
     }
+
 }
