@@ -13,7 +13,7 @@ import fruits.Fruits;
  * 全て回答し、課題にある画像と同じ表示になるようにしてください。
  *
  */
-public class Study extends FruitsConstants{
+public class Study {
 	
 
 	public static void main(String[] args) {
@@ -22,7 +22,8 @@ public class Study extends FruitsConstants{
          *     また、課題の画像と同じ表示になるように
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
-    	Fruits.printFruits(FRUITS_LEMON_04,FRUITS_COUNT_20);
+		
+		Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04,FruitsConstants.FRUITS_COUNT_20);
     	
     }
 	
