@@ -1,0 +1,29 @@
+table{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.header{
+background-color: gray;
+}
+
+.login{
+display: inline-block;
+padding: 10px;
+color: white;
+}
+
+.Date{
+padding: 10px;
+font-size: 10px;
+}
+
+.footer{
+background-color: gray;
+}
+
+.footer-logo{
+display: inline-block;
+padding: 10px;
+color: white;
+}
