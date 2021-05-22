@@ -1,0 +1,50 @@
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+.a{
+    width: 600px;
+    height: 150px;
+    background-color: #FFFF00;
+}
+.b{
+    width: 200px;
+    height: 150px;
+    background-color: #33FFFF;
+    float: left;
+}
+.c{
+    width: 200px;
+    height: 150px;
+    background-color: #FF0000;
+    float: left;
+}
+.d{
+    width: 200px;
+    height: 150px;
+    background-color: #0000FF;
+    float: left;
+}
+.e{
+    width: 500px;
+    height: 150px;
+    background-color: #00FF00;
+    float: left;
+}
+.f{
+    width: 100px;
+    height: 150px;
+    background-color: #FF00FF;
+    float: left;
+}
+.g{
+    width: 600px;
+    height: 150px;
+    background-color: #33FFFF;
+    float: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
