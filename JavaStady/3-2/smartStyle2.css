@@ -1,0 +1,53 @@
+@media screen and (max-width:767px){
+    .a{
+        width: 300px;
+    }
+    .b{
+        width: 100px;
+    }
+    .CD{
+        width: 125px;
+    }
+    .e{
+        width: 75px;
+    }
+    .f{
+        width: 200px;
+    }
+    .g{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .a{
+        width: 150px;
+    }
+    .b{
+        width: 150px;
+        float: none;
+    }
+    .main{
+        float: none;
+    }
+    .CD{
+        width: 150px;
+        float: none;
+    }
+    .e{
+        width: 150px;
+        float: none;
+    }
+    .f{
+        width: 150px;
+        float: none;
+    }
+    .g{
+        width: 150px;
+    }
+    .clearfix::after { 
+        content: ''; 
+        display: block; 
+        clear: both;
+    }
+}
