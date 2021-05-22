@@ -1,0 +1,39 @@
+@media screen and (max-width:767px){
+    .a{
+        width: 250px;
+    }
+    .b{
+        width: 150px;
+    }
+    .c{
+        width: 100px;
+    }
+    .d{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .a{
+        width: 150px;
+    }
+   
+    .b{
+        width: 150px;
+        float: none;
+    }
+    .c{
+        width: 150px;
+        float: none;
+    }
+    .d{
+        width: 150px;
+    }
+
+    .clearfix::after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
+}
